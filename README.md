@@ -62,3 +62,7 @@ Printing Status:
 2022-07-30 08:13:58    INFO    Instance deployment completed successfully.
  -- Events -- (safe to Ctrl+C)
 ```
+
+### eb deploy
+- `eb init` is required in buildspec as before `eb deploy`. This will run in codebuild server
+- the service role created for the build project need to be given EBS permissions

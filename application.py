@@ -5,7 +5,7 @@ application = Flask(__name__)
 
 @application.route('/')
 def main():
-    return "Hello! Testing CD"
+    return "Hello! Final CD test"
 
 @application.route('/value/<val>')
 def printValue(val):
