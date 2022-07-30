@@ -11,6 +11,7 @@ phases:
       - python3 -m venv ~/.venv
       - source ~/.venv/bin/activate
       - make install
+      - make init
   build:
     commands:
       - make deploy
