@@ -8,6 +8,9 @@ Elastic Beanstalk Flask application with CD
 
 
 ### eb create
+
+*This didn't work with app.py, had to name it application.py*
+
 ```
 (.eb-flask-scaffold) Vaibhavs-MBP:eb-flask-scaffold vaibhavvij$ eb create
 Enter Environment Name

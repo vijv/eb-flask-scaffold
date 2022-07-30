@@ -5,7 +5,7 @@ application = Flask(__name__)
 
 @application.route('/')
 def main():
-    return "Flask with CICD"
+    return "Hello! Testing CD"
 
 @application.route('/value/<val>')
 def printValue(val):

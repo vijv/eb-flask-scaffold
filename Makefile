@@ -4,3 +4,6 @@ install:
 
 lint:
 	pylint --disable=R,C *.py
+
+deploy:
+	eb deploy eb-flask-scaffold-dev
